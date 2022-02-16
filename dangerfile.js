@@ -7,7 +7,7 @@ const { message, danger } = require("danger");
 // import { istanbulCoverage } from "danger-plugin-istanbul-coverage"
 const { istanbulCoverage } = require("danger-plugin-istanbul-coverage");
 
-schedule(istanbulCoverage()) // Use default configuration
+// schedule(istanbulCoverage()) // Use default configuration
 
 schedule(istanbulCoverage({
   // Set a custom success message
