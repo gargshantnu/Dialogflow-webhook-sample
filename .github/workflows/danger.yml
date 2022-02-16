@@ -16,6 +16,6 @@ jobs:
     - name: Merge coverage report
       run: npm run merge
     - name: Danger
-      run: npm danger ci
+      run: npm run runDangerTest
       env:
         DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
