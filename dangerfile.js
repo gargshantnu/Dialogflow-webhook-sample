@@ -89,7 +89,7 @@ if (hasAppChanges && !hasTestChanges) {
 
 
 
-const { jiraIssue } = require("danger-plugin-jira-issue");
+const { default: jiraIssue } = require("danger-plugin-jira-issue");
 
 jiraIssue({
   key: ["TD", "FW"],
