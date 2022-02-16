@@ -20,7 +20,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - danger ci
+      - npm run runDangerTest
 # Include only the files required for your application to run.
 artifacts:
   files:
