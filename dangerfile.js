@@ -66,7 +66,7 @@ if (packageChanged && !lockfileChanged) {
 
 const bigPRThreshold = 600;
 if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
-  warn('Big pull request, please keep small to make it easier to review');
+  warn('Your PR has over 500 lines of code :scream: Try to break it up into separate PRs if possible :thumbsup:');
 }
 if (danger.github.pr.deletions > 200) {
   message(`:tada: The PR removed ${danger.github.pr.deletions} lines.`);
