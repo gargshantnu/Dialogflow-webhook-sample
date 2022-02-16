@@ -7,6 +7,8 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tunnel": "/Users/shantnugarg/Desktop/ngrok http 8080",
+    "coverage": "nyc --reporter=text npm run test",
+    "merge": "nyc merge .nyc_output/ coverage/coverage-final.json",
     "runDangerLocal": "danger local",
     "runDangerTest": "danger ci"
   },
@@ -19,7 +21,9 @@
     "express": "^4.17.2"
   },
   "devDependencies": {
+    "danger": "11.0.2",
+    "danger-plugin-code-coverage": "^1.1.9",
     "nodemon": "^2.0.15",
-    "danger": "11.0.2"
+    "nyc": "^15.1.0"
   }
 }
