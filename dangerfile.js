@@ -44,6 +44,11 @@ codeCoverage();
 //   }
 // }))
 
+
+if (danger.github.pr.title.toLowerCase().includes("wip")) {
+  warn("PR is classed as Work in Progress")
+}
+
 const modifiedMD = danger.git.modified_files.join("- ");
 message("Changed Files in this PR are: \n - " + modifiedMD);
 
@@ -87,6 +92,20 @@ if (hasAppChanges && !hasTestChanges) {
   );
 }
 
+
+const mergeCommits = danger.github.commits.filter(commit => {
+  commit.message.includes(`Merge branch 'master'`);
+})
+if (mergeCommits.length) {
+  warn("Please rebase to get rid of the merge commits in this PR 🙏");
+}
+
+// TODO add check here
+console.log("github.requested_reviewers ", danger.github.requested_reviewers)
+
+if(danger.github.pr.body.length == 0){
+  warn("Please add a description to your PR to make it easier to review :ok_hand:")
+}
 
 
 const { default: jiraIssue } = require("danger-plugin-jira-issue");
