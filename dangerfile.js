@@ -74,3 +74,18 @@ if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
 if (danger.github.pr.deletions > 200) {
   message(`:tada: The PR removed ${danger.github.pr.deletions} lines.`);
 }
+
+
+
+const hasAppChanges = danger.git.modified_files.length > 0;
+const testChanges = danger.git.modified_files.filter(filepath =>
+  filepath.includes('test'),
+);
+const hasTestChanges = testChanges.length > 0;
+
+// Warn if there are code changes, but not tests
+if (hasAppChanges && !hasTestChanges) {
+  warn(
+    "There are code changes, but not tests. That's OK as long as you're refactoring existing code",
+  );
+}
