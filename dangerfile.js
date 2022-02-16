@@ -48,9 +48,12 @@ const {
 if (danger.github.pr.title.toLowerCase().includes("[wip]")) {
   warn("PR is classed as Work in Progress")
 }
-console.log("danger.github.pr.changed_files ", danger.github.pr.changed_files);
-const modifiedMD = danger.github.pr.changed_files.join("- ");
-message("Changed Files in this PR are: \n - " + modifiedMD);
+
+const createdFiles = danger.github.pr.created_files.join("- ");
+message("Created Files in this PR are: \n - " + createdFiles);
+
+const updatedFiles = danger.github.pr.modified_files.join("- ");
+message("Updated Files in this PR are: \n - " + updatedFiles);
 
 
 
