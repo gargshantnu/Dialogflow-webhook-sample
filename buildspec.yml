@@ -20,6 +20,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
+      - danger ci
 # Include only the files required for your application to run.
 artifacts:
   files:
