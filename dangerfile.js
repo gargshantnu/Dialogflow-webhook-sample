@@ -105,6 +105,9 @@ if (mergeCommits.length) {
 
 // TODO add check here
 console.log("github.requested_reviewers ", danger.github.requested_reviewers)
+if(!danger.github.requested_reviewers.users.length && !danger.github.requested_reviewers.teams.length ){
+  warn("Please add right persons as reviewers :exclamation:")
+}
 
 if (danger.github.pr.body.length == 0) {
   warn("Please add a description to your PR to make it easier to review :ok_hand:")
