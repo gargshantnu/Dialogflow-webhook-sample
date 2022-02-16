@@ -1,5 +1,5 @@
 // import { message, danger } from "danger";
-const { message, danger } = require("danger");
+const { message, danger, warn } = require("danger");
 
 // import { codeCoverage } from "danger-plugin-code-coverage";
 const { codeCoverage } = require("danger-plugin-code-coverage");
