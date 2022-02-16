@@ -11,11 +11,11 @@ jobs:
         node-version: 12.x
     - name: Install packages
       run: npm i
-    - name: Run coverage
-      run: npm run coverage
-    - name: Merge coverage report
-      run: npm run merge
+    # - name: Run coverage
+    #   run: npm run coverage
+    # - name: Merge coverage report
+    #   run: npm run merge
     - name: Danger
-      run: npm run runDangerTest
+      run: npm run runDangerGit
       env:
         DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
