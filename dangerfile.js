@@ -78,7 +78,7 @@ if (danger.github.pr.deletions > 200) {
 }
 
 
-console.log("danger.git.modified_files ", danger.git.modified_files);
+// console.log("danger.git.modified_files ", danger.git.modified_files);
 const hasAppChanges = danger.git.modified_files.length > 0;
 const testChanges = danger.git.modified_files.filter(filepath =>
   filepath.includes('test'),
@@ -98,13 +98,13 @@ const mergeCommits = danger.github.commits.filter(({
 }) => {
   return commit.message.includes(`Merge branch 'master'`);
 });
-console.log("mergeCommits ", mergeCommits);
+// console.log("mergeCommits ", mergeCommits);
 if (mergeCommits.length) {
   warn("Please rebase to get rid of the merge commits in this PR 🙏");
 }
 
 // TODO add check here
-console.log("github.requested_reviewers ", danger.github.requested_reviewers)
+// console.log("github.requested_reviewers ", danger.github.requested_reviewers)
 if(!danger.github.requested_reviewers.users.length && !danger.github.requested_reviewers.teams.length ){
   warn("Please add right persons as reviewers :exclamation:")
 }
