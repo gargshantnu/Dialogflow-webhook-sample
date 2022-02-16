@@ -14,7 +14,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the dist folder
-      - npm run build-"${NODE_ENV}"
+      # - npm run build-"${NODE_ENV}"
       # Run test cases only if codebuild environment is configured to run them
       - if [ "${RUN_TESTS}" = "True" ]; then npm run test; fi
   post_build:
