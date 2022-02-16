@@ -1,17 +1,14 @@
-// import { message, danger } from "danger";
 const {
   message,
   danger,
   warn
 } = require("danger");
 
-// import { codeCoverage } from "danger-plugin-code-coverage";
 const {
   codeCoverage
 } = require("danger-plugin-code-coverage");
 codeCoverage();
 
-// import { istanbulCoverage } from "danger-plugin-istanbul-coverage"
 // const { istanbulCoverage } = require("danger-plugin-istanbul-coverage");
 
 // schedule(istanbulCoverage()) // Use default configuration
@@ -89,3 +86,18 @@ if (hasAppChanges && !hasTestChanges) {
     "There are code changes, but not tests. That's OK as long as you're refactoring existing code",
   );
 }
+
+
+
+const { jiraIssue } = require("danger-plugin-jira-issue");
+
+jiraIssue({
+  key: ["TD", "FW"],
+  url: "https://kommunicate.atlassian.net/browse",
+  emoji: ":paperclip:",
+  format(emoji, jiraUrls) {
+    // Optional Formatter
+    return "Some Custom Message";
+  },
+  // location: "title" // Optional location, either 'title' or 'branch'
+});
