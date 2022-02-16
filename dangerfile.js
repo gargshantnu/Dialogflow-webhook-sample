@@ -95,6 +95,10 @@ jiraIssue({
   key: ["TD", "FW"],
   url: "https://kommunicate.atlassian.net/browse",
   // emoji: ":paperclip:",
+  format(emoji, jiraUrls) {
+    // Optional Formatter
+    return `Jira Link - ${emoji} ${jiraUrls}`;
+  },
   fail_on_warning: false
   // location: "title" // Optional location, either 'title' or 'branch'
 });
