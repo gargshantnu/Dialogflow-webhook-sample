@@ -63,3 +63,11 @@ if (packageChanged && !lockfileChanged) {
   // console.log("package-log found");
   message("Good work on committing package-lock as well");
 }
+
+
+
+
+const bigPRThreshold = 600;
+if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
+  warn('Big pull request, please keep small to make it easier to review');
+}
