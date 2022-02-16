@@ -1,8 +1,14 @@
 // import { message, danger } from "danger";
-const { message, danger, warn } = require("danger");
+const {
+  message,
+  danger,
+  warn
+} = require("danger");
 
 // import { codeCoverage } from "danger-plugin-code-coverage";
-const { codeCoverage } = require("danger-plugin-code-coverage");
+const {
+  codeCoverage
+} = require("danger-plugin-code-coverage");
 codeCoverage();
 
 // import { istanbulCoverage } from "danger-plugin-istanbul-coverage"
@@ -46,14 +52,14 @@ message("Changed Files in this PR are: \n - " + modifiedMD);
 
 
 
-
+// Check if package.json is modified but package-lock.json is modified or not
+// ideally both should be modified
 const packageChanged = danger.git.modified_files.includes('package.json');
 const lockfileChanged = danger.git.modified_files.includes('package-lock.json');
 if (packageChanged && !lockfileChanged) {
-  console.log("package-log not found");
-    warn(`Changes were made to package.json, but not to package-lock.json - <i>'Perhaps you need to run \`npm install\`?'</i>`);
-}
-else{
-  console.log("package-log found");
-  message("Good work on comming package-lock as well"); 
+  // console.log("package-log not found");
+  warn(`Changes were made to package.json, but not to package-lock.json - <i>'Perhaps you need to run \`npm install\`?'</i>`);
+} else {
+  // console.log("package-log found");
+  message("Good work on committing package-lock as well");
 }
