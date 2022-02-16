@@ -52,3 +52,6 @@ const lockfileChanged = danger.git.modified_files.includes('package-lock.json');
 if (packageChanged && !lockfileChanged) {
     warn(`Changes were made to package.json, but not to package-lock.json - <i>'Perhaps you need to run \`npm install\`?'</i>`);
 }
+else{
+  message("Good work on comming package-lock as well"); 
+}
