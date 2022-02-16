@@ -94,10 +94,7 @@ const { jiraIssue } = require("danger-plugin-jira-issue");
 jiraIssue({
   key: ["TD", "FW"],
   url: "https://kommunicate.atlassian.net/browse",
-  emoji: ":paperclip:",
-  format(emoji, jiraUrls) {
-    // Optional Formatter
-    return "Some Custom Message";
-  },
+  // emoji: ":paperclip:",
+  fail_on_warning: false
   // location: "title" // Optional location, either 'title' or 'branch'
 });
