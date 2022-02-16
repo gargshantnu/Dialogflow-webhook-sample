@@ -9,6 +9,7 @@
     "tunnel": "/Users/shantnugarg/Desktop/ngrok http 8080",
     "coverage": "nyc --reporter=text npm run test",
     "merge": "nyc merge .nyc_output/ coverage/coverage-final.json",
+    "show": "nyc report -t merged-output --report-dir merged-report --reporter=html --reporter=cobertura",
     "runDangerGit": "(nyc --reporter=text npm run test) && (nyc merge .nyc_output/ coverage/coverage-final.json) && (danger ci)",
     "runDangerLocal": "danger local",
     "runDangerTest": "danger ci"
