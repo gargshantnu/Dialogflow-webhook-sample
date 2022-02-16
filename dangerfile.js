@@ -93,7 +93,7 @@ if (hasAppChanges && !hasTestChanges) {
 }
 
 console.log("danger.github.commits ", danger.github.commits);
-const mergeCommits = danger.github.commits.filter(commit => {
+const mergeCommits = danger.github.commits.filter(({commit}) => {
   commit.message.includes(`Merge branch 'master'`);
 })
 if (mergeCommits.length) {
