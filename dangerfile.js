@@ -78,7 +78,7 @@ if (danger.github.pr.deletions > 200) {
 }
 
 
-
+console.log("danger.git.modified_files ", danger.git.modified_files);
 const hasAppChanges = danger.git.modified_files.length > 0;
 const testChanges = danger.git.modified_files.filter(filepath =>
   filepath.includes('test'),
@@ -92,7 +92,7 @@ if (hasAppChanges && !hasTestChanges) {
   );
 }
 
-
+console.log("danger.github.commits ", danger.github.commits);
 const mergeCommits = danger.github.commits.filter(commit => {
   commit.message.includes(`Merge branch 'master'`);
 })
