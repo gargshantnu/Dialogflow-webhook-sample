@@ -71,3 +71,6 @@ const bigPRThreshold = 600;
 if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
   warn('Big pull request, please keep small to make it easier to review');
 }
+if (danger.github.pr.deletions > 200) {
+  message(`:tada: The PR removed ${deletions} lines.`);
+}
