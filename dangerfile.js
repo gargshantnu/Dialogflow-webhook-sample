@@ -92,10 +92,11 @@ if (hasAppChanges && !hasTestChanges) {
   );
 }
 
-console.log("danger.github.commits ", danger.github.commits);
+
 const mergeCommits = danger.github.commits.filter(({commit}) => {
   commit.message.includes(`Merge branch 'master'`);
-})
+});
+console.log("mergeCommits ", mergeCommits);
 if (mergeCommits.length) {
   warn("Please rebase to get rid of the merge commits in this PR 🙏");
 }
