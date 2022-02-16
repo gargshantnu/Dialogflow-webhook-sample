@@ -63,7 +63,7 @@ if (packageChanged && !lockfileChanged) {
   warn(`Changes were made to package.json, but not to package-lock.json - <i>'Perhaps you need to run \`npm install\`?'</i>`);
 } else {
   // console.log("package-log found");
-  message("Good work on committing package-lock as well");
+  message("Good work on committing package-lock as well :thumbsup:");
 }
 
 
@@ -74,7 +74,7 @@ if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
   warn('Your PR has over 500 lines of code :scream: Try to break it up into separate PRs if possible :thumbsup:');
 }
 if (danger.github.pr.deletions > 200) {
-  message(`:tada: The PR removed ${danger.github.pr.deletions} lines.`);
+  message(`:tada: The PR removed ${danger.github.pr.deletions} lines. :clap:`);
 }
 
 
