@@ -23,6 +23,7 @@
   "devDependencies": {
     "danger": "11.0.2",
     "danger-plugin-code-coverage": "^1.1.9",
+    "danger-plugin-istanbul-coverage": "^1.6.2",
     "nodemon": "^2.0.15",
     "nyc": "^15.1.0"
   }
