@@ -3,9 +3,7 @@ const { message, danger } = require("danger");
 
 // import { codeCoverage } from "danger-plugin-code-coverage";
 const { codeCoverage } = require("danger-plugin-code-coverage");
-codeCoverage({
-  coverageFilesPath: "coverage/coverage-final.json"
-});
+codeCoverage();
 
 // import { istanbulCoverage } from "danger-plugin-istanbul-coverage"
 // const { istanbulCoverage } = require("danger-plugin-istanbul-coverage");
