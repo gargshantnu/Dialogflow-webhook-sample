@@ -4,10 +4,10 @@ const {
   warn
 } = require("danger");
 
-const {
-  codeCoverage
-} = require("danger-plugin-code-coverage");
-codeCoverage();
+// const {
+//   codeCoverage
+// } = require("danger-plugin-code-coverage");
+// codeCoverage();
 
 // const { istanbulCoverage } = require("danger-plugin-istanbul-coverage");
 
@@ -45,7 +45,7 @@ codeCoverage();
 // }))
 
 
-if (danger.github.pr.title.toLowerCase().includes("wip")) {
+if (danger.github.pr.title.toLowerCase().includes("[wip]")) {
   warn("PR is classed as Work in Progress")
 }
 
@@ -88,12 +88,14 @@ const hasTestChanges = testChanges.length > 0;
 // Warn if there are code changes, but not tests
 if (hasAppChanges && !hasTestChanges) {
   warn(
-    "There are code changes, but not tests. That's OK as long as you're refactoring existing code",
+    "Remember to write tests in case you have added a new API or fixed a bug. Feel free to ask for help if you need it :thumbsup:"
   );
 }
 
 
-const mergeCommits = danger.github.commits.filter(({commit}) => {
+const mergeCommits = danger.github.commits.filter(({
+  commit
+}) => {
   return commit.message.includes(`Merge branch 'master'`);
 });
 console.log("mergeCommits ", mergeCommits);
@@ -104,12 +106,14 @@ if (mergeCommits.length) {
 // TODO add check here
 console.log("github.requested_reviewers ", danger.github.requested_reviewers)
 
-if(danger.github.pr.body.length == 0){
+if (danger.github.pr.body.length == 0) {
   warn("Please add a description to your PR to make it easier to review :ok_hand:")
 }
 
 
-const { default: jiraIssue } = require("danger-plugin-jira-issue");
+const {
+  default: jiraIssue
+} = require("danger-plugin-jira-issue");
 
 jiraIssue({
   key: ["TD", "FW"],
