@@ -5,8 +5,14 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tunnel": "/Users/shantnugarg/Desktop/ngrok http 8080"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "tunnel": "/Users/shantnugarg/Desktop/ngrok http 8080",
+    "coverage": "nyc --reporter=text npm run test",
+    "merge": "nyc merge .nyc_output/ coverage/coverage-final.json",
+    "show": "nyc report -t merged-output --report-dir merged-report --reporter=html --reporter=cobertura",
+    "runDangerGit": "(nyc --reporter=text npm run test) && (nyc merge .nyc_output/ coverage/coverage-final.json) && (danger ci)",
+    "runDangerLocal": "danger local",
+    "runDangerTest": "danger ci"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +23,11 @@
     "express": "^4.17.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "danger": "11.0.2",
+    "danger-plugin-code-coverage": "^1.1.9",
+    "danger-plugin-istanbul-coverage": "^1.6.2",
+    "danger-plugin-jira-issue": "^1.4.1",
+    "nodemon": "^2.0.15",
+    "nyc": "^15.1.0"
   }
 }
