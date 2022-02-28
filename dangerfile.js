@@ -132,3 +132,9 @@ jiraIssue({
   fail_on_warning: false
   // location: "title" // Optional location, either 'title' or 'branch'
 });
+
+
+const result = require('./coverage/coverage-final.json');
+const coverage = JSON.stringify(result.total)
+console.log("code coverage: ", coverage);
+message(`coverage ${coverage}`);
