@@ -1,4 +1,5 @@
-const result = require('./coverage/coverage-final.json');
+// const result = require('./coverage/coverage-final.json');
+const result = require('./package.json');
 const fs = require("fs");
 
 console.log('a.js:', JSON.stringify(result.total));
