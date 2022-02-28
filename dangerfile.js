@@ -134,7 +134,7 @@ jiraIssue({
 });
 
 
-const result = require('./coverage/coverage-final.json');
+const result = require('./coverage/coverage-final');
 const coverage = JSON.stringify(result.total)
 console.log("code: ", result);
 console.log("code coverage: ", coverage);
