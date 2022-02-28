@@ -1,5 +1,5 @@
-// const fileName = './coverage/coverage-final.json';
-const fileName = './package.json';
+const fileName = './coverage/coverage-final.json';
+// const fileName = './package.json';
 
 const result = require(fileName);
 const fs = require("fs");
