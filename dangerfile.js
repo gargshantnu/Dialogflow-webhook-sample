@@ -152,8 +152,8 @@ const statementCoverage = `${"Statement".padStart(10)} ${"?".padStart(10)} ${cov
 
 const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
   + "\n ##             master     #428   +/-   ## \n ========================================= \n " 
-  + functionCoverage + "========================================= \n "
-  + lineCoverage + "========================================= \n "
+  + functionCoverage + " \n "
+  + lineCoverage + " \n "
   + statementCoverage + "========================================= \n "
   + " ```";
 
