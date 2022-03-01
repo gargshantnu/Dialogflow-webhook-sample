@@ -134,22 +134,22 @@ jiraIssue({
 });
 
 
-// const result = require('./coverage/coverage-final.json');
-// const coverage = JSON.stringify(result.total)
-// console.log("code: ", result);
-// console.log("code coverage: ", coverage);
-// message(`coverage ${coverage}`);
-const fs = require("fs");
+const result = require('./coverage/coverage-final.json');
+const coverage = JSON.stringify(result.total)
+console.log("code: ", result);
+console.log("code coverage: ", coverage);
+message(`coverage ${coverage}`);
+// const fs = require("fs");
 // fs.readdir('./', (err, files) => {
 //   files.forEach(file => {
 //     console.log(file);
 //   });
 // });
 
-fs.readFile("./coverage/coverage-final.json", 'utf8', (err, data) => {
-  if (err) {
-      console.error(err)
-      return
-  }
-  console.log("danger data: ", data);
-})
+// fs.readFile("./coverage/coverage-final.json", 'utf8', (err, data) => {
+//   if (err) {
+//       console.error(err)
+//       return
+//   }
+//   console.log("danger data: ", data);
+// })
