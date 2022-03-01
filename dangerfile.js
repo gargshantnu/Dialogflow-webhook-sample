@@ -146,9 +146,9 @@ console.log("coverage.statements: ", coverage.statements);
 
 // const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
 
-const functionCoverage = `${"Functions".padStart(10)} ${"?".padStart(10)} ${coverage.functions.pct.padStart(10)} \n `;
-const lineCoverage = `${"Lines".padStart(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} \n `;
-const statementCoverage = `${"Statement".padStart(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} \n `;
+const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${coverage.functions.pct.padStart(10)} \n `;
+const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} \n `;
+const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} \n `;
 
 const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
   + "\n ##             master     #428   +/-   ## \n ========================================= \n " 
