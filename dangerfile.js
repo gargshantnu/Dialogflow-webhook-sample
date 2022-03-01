@@ -153,7 +153,7 @@ const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${cover
 const prNumber = `#${danger.github.pr.number.toString()}`.padStart(10);
 
 const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
-  + `\n ## ${"master".padStart(10)} ${prNumber}   +/-   ## \n ========================================= \n ` 
+  + `\n ## ${"master".padStart(21)} ${prNumber}   +/-   ## \n ========================================= \n ` 
   + functionCoverage + " \n "
   + lineCoverage + " \n "
   + statementCoverage + "========================================= \n "
