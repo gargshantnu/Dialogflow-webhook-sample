@@ -5,7 +5,7 @@ const result = require(fileName);
 const fs = require("fs");
 
 console.log('a.js: ', JSON.stringify(result));
-fs.readdir('./', (err, files) => {
+fs.readdir('./coverage', (err, files) => {
     files.forEach(file => {
         console.log(file);
     });
