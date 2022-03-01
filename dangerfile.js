@@ -108,7 +108,7 @@ const functionCoverage = `${"Functions".padEnd(16)} ${newCoverage.functions.pct.
 const lineCoverage = `${"Lines".padEnd(16)} ${newCoverage.lines.pct.padStart(16)}%\n`;
 const statementCoverage = `${"Statement".padEnd(16)} ${newCoverage.statements.pct.padStart(16)}%\n`;
 
-const prNumber = `#${danger.github.pr.number.toString()}`.padStart(16);
+const prNumber = `#${danger.github.pr.number.toString()}`.padStart(17);
 
 
 // const msg = "\n ```diff \n @@          Coverage Difference          @@"
@@ -118,7 +118,7 @@ const prNumber = `#${danger.github.pr.number.toString()}`.padStart(16);
 //   + statementCoverage + "========== ========== ========== ========== \n"
 //   + " ```";
 
-const msg = "\n ```diff \n @@      Current Coverage     @@"
+const msg = "\n ```diff \n @@        Current Coverage       @@"
   + `\n ${"##".padEnd(15)} ${prNumber}\n================ =================\n` 
   + functionCoverage
   + lineCoverage
