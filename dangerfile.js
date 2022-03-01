@@ -137,11 +137,11 @@ jiraIssue({
 
 const result = require('./coverage/coverage-summary.json');
 const coverage = result.total;
-console.log("code: ", result);
-console.log("code coverage: ", coverage);
-console.log("coverage.functions: ", coverage.functions);
-console.log("coverage.lines: ", coverage.lines);
-console.log("coverage.statements: ", coverage.statements);
+// console.log("code: ", result);
+// console.log("code coverage: ", coverage);
+// console.log("coverage.functions: ", coverage.functions);
+// console.log("coverage.lines: ", coverage.lines);
+// console.log("coverage.statements: ", coverage.statements);
 // message(`coverage ${coverage}`);
 
 // const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
@@ -149,6 +149,8 @@ console.log("coverage.statements: ", coverage.statements);
 const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${coverage.functions.pct.padStart(10)} \n `;
 const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} \n `;
 const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} \n `;
+
+console.log("danger.github.pr.number: ", danger.github.pr);
 
 const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
   + `\n ##             master     #${danger.github.pr.number}   +/-   ## \n ========================================= \n ` 
