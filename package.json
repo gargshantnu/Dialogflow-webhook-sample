@@ -7,12 +7,12 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 0",
     "tunnel": "/Users/shantnugarg/Desktop/ngrok http 8080",
-    "coverage": "nyc --reporter=text npm run test",
+    "coverage": "nyc --reporter=json-summary npm run test",
     "merge": "nyc merge .nyc_output/ coverage/coverage-final.json",
     "show": "nyc report -t merged-output --report-dir merged-report --reporter=html --reporter=cobertura",
     "runDangerGit": "(nyc --reporter=text npm run test) && (nyc merge .nyc_output/ coverage/coverage-final.json) && (danger ci) && (node a.js)",
     "runDangerLocal": "danger local",
-    "runDangerTest": "(danger ci)&& (node a.js)"
+    "runDangerTest": "danger ci"
   },
   "author": "shantnu",
   "license": "ISC",
