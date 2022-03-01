@@ -146,17 +146,17 @@ const coverage = result.total;
 
 // const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
 
-const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${coverage.functions.pct.padStart(10)} ${"2".padStart(10)} \n`;
-const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} ${"2".padStart(10)} \n`;
-const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} ${"2".padStart(10)} \n`;
+const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${coverage.functions.pct.padStart(10)} ${"2".padStart(10)}\n`;
+const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} ${"2".padStart(10)}\n`;
+const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} ${"2".padStart(10)}\n`;
 
 const prNumber = `#${danger.github.pr.number.toString()}`.padStart(10);
 
 const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
-  + `\n ${"##".padEnd(9)} ${"master".padStart(10)} ${prNumber} ${"+/-".padStart(10)} \n ========== ========== ========== ========== \n ` 
-  + functionCoverage + " \n "
-  + lineCoverage + " \n "
-  + statementCoverage + "========== ========== ========== ========== \n "
+  + `\n ${"##".padEnd(9)} ${"master".padStart(10)} ${prNumber} ${"+/-".padStart(10)} \n ========== ========== ========== ==========\n` 
+  + functionCoverage + " \n"
+  + lineCoverage + " \n"
+  + statementCoverage + "========== ========== ========== ========== \n"
   + " ```";
 
 
