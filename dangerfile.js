@@ -140,20 +140,7 @@ console.log("code: ", result);
 console.log("code coverage: ", coverage);
 message(`coverage ${coverage}`);
 
-const msg = ```diff
-@@            Coverage Diff            @@
-##             master     #428   +/-   ##
-=========================================
-  Coverage          ?   27.89%           
-=========================================
-  Files             ?      239           
-  Lines             ?    11368           
-  Branches          ?        0           
-=========================================
-  Hits              ?     3171           
-  Misses            ?     8197           
-  Partials          ?        0           
-```;
+const msg = "```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Files             ?      239            \n   Lines             ?    11368            \n   Branches          ?        0            \n ========================================= \n   Hits              ?     3171            \n   Misses            ?     8197            \n   Partials                   0            \n ```";
 message(`msg ${msg}`);
 // const fs = require("fs");
 // fs.readdir('./', (err, files) => {
