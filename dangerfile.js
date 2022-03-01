@@ -141,7 +141,7 @@ console.log("code: ", result);
 console.log("code coverage: ", coverage);
 // message(`coverage ${coverage}`);
 
-const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n =========================================```";
+const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
 markdown(`## Code Coverage ${msg}`);
 // const fs = require("fs");
 // fs.readdir('./', (err, files) => {
