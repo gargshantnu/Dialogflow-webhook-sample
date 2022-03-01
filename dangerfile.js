@@ -104,9 +104,9 @@ const newCoverage = newCoverageReport.total;
 // const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${newCoverage.lines.pct.padStart(10)} ${"2".padStart(10)}\n`;
 // const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${newCoverage.statements.pct.padStart(10)} ${"2".padStart(10)}\n`;
 
-const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${newCoverage.functions.pct.padStart(10)} ${"2".padStart(10)}\n`;
-const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${newCoverage.lines.pct.padStart(10)} ${"2".padStart(10)}\n`;
-const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${newCoverage.statements.pct.padStart(10)} ${"2".padStart(10)}\n`;
+const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${newCoverage.functions.pct.padStart(10)}\n`;
+const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${newCoverage.lines.pct.padStart(10)}\n`;
+const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${newCoverage.statements.pct.padStart(10)}\n`;
 
 const prNumber = `#${danger.github.pr.number.toString()}`.padStart(10);
 
