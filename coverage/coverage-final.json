@@ -1,0 +1,6248 @@
+{
+    "total": {
+        "lines": {
+            "total": 11368,
+            "covered": 3167,
+            "skipped": 0,
+            "pct": 27.85
+        },
+        "statements": {
+            "total": 11435,
+            "covered": 3167,
+            "skipped": 0,
+            "pct": 27.69
+        },
+        "functions": {
+            "total": 2092,
+            "covered": 42,
+            "skipped": 0,
+            "pct": 2
+        },
+        "branches": {
+            "total": 3638,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 0.43
+        },
+        "branchesTrue": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/app.js": {
+        "lines": {
+            "total": 69,
+            "covered": 38,
+            "skipped": 0,
+            "pct": 55.07
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 69,
+            "covered": 38,
+            "skipped": 0,
+            "pct": 55.07
+        },
+        "branches": {
+            "total": 16,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 12.5
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/conf/config.js": {
+        "lines": {
+            "total": 22,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 77.27
+        },
+        "functions": {
+            "total": 5,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 60
+        },
+        "statements": {
+            "total": 22,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 77.27
+        },
+        "branches": {
+            "total": 6,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 83.33
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/conf/emailConfig.js": {
+        "lines": {
+            "total": 17,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 82.35
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 17,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 82.35
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/Exceptions/FacebookError.js": {
+        "lines": {
+            "total": 6,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 6,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/activeCampaign/activeCampaignClient.js": {
+        "lines": {
+            "total": 48,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "functions": {
+            "total": 11,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 48,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "branches": {
+            "total": 18,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/agileCrm/agileController.js": {
+        "lines": {
+            "total": 30,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 23.33
+        },
+        "functions": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 30,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 23.33
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/agileCrm/agileCrmClient.js": {
+        "lines": {
+            "total": 78,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 17.94
+        },
+        "functions": {
+            "total": 13,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 78,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 17.94
+        },
+        "branches": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/agileCrm/agileService.js": {
+        "lines": {
+            "total": 63,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 7.93
+        },
+        "functions": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 65,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 7.69
+        },
+        "branches": {
+            "total": 48,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/agileCrm/validation.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/appevent/InAppEventController.js": {
+        "lines": {
+            "total": 5,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 40
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 5,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 40
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/appevent/InAppEventService.js": {
+        "lines": {
+            "total": 6,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 50
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 6,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 50
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/application/inAppMsgController.js": {
+        "lines": {
+            "total": 252,
+            "covered": 26,
+            "skipped": 0,
+            "pct": 10.31
+        },
+        "functions": {
+            "total": 69,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 252,
+            "covered": 26,
+            "skipped": 0,
+            "pct": 10.31
+        },
+        "branches": {
+            "total": 98,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/application/inAppMsgService.js": {
+        "lines": {
+            "total": 218,
+            "covered": 34,
+            "skipped": 0,
+            "pct": 15.59
+        },
+        "functions": {
+            "total": 66,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 219,
+            "covered": 34,
+            "skipped": 0,
+            "pct": 15.52
+        },
+        "branches": {
+            "total": 99,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/application/utils.js": {
+        "lines": {
+            "total": 7,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 7,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/application/validation.js": {
+        "lines": {
+            "total": 13,
+            "covered": 13,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 13,
+            "covered": 13,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/applicationProductRef/applicationProductRefService.js": {
+        "lines": {
+            "total": 52,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 19.23
+        },
+        "functions": {
+            "total": 15,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 52,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 19.23
+        },
+        "branches": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/applicationProductRef/constant.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/authentication/authenticationHelper.js": {
+        "lines": {
+            "total": 23,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 26.08
+        },
+        "functions": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 23,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 26.08
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/authentication/authenticationService.js": {
+        "lines": {
+            "total": 42,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "functions": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 42,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "branches": {
+            "total": 26,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/authentication/kongClient.js": {
+        "lines": {
+            "total": 50,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 18
+        },
+        "functions": {
+            "total": 15,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 50,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 18
+        },
+        "branches": {
+            "total": 16,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/authentication/passport.authentication.js": {
+        "lines": {
+            "total": 56,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 32.14
+        },
+        "functions": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 56,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 32.14
+        },
+        "branches": {
+            "total": 21,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/autoSuggestService2.js": {
+        "lines": {
+            "total": 184,
+            "covered": 25,
+            "skipped": 0,
+            "pct": 13.58
+        },
+        "functions": {
+            "total": 36,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 187,
+            "covered": 25,
+            "skipped": 0,
+            "pct": 13.36
+        },
+        "branches": {
+            "total": 67,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/autosuggestController.js": {
+        "lines": {
+            "total": 159,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 12.57
+        },
+        "functions": {
+            "total": 46,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 160,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 12.5
+        },
+        "branches": {
+            "total": 68,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/counter.js": {
+        "lines": {
+            "total": 8,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 75
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 8,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 75
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/faqCategory.js": {
+        "lines": {
+            "total": 11,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 54.54
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 11,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 54.54
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/faqCategoryController.js": {
+        "lines": {
+            "total": 53,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 13.2
+        },
+        "functions": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 53,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 13.2
+        },
+        "branches": {
+            "total": 20,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/faqCategoryService.js": {
+        "lines": {
+            "total": 45,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 20
+        },
+        "functions": {
+            "total": 15,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 46,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 19.56
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/faqSearchService.js": {
+        "lines": {
+            "total": 18,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 22.22
+        },
+        "functions": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 18,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 22.22
+        },
+        "branches": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/hashGenerator.js": {
+        "lines": {
+            "total": 9,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 44.44
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 9,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 44.44
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/knowledgeBase.js": {
+        "lines": {
+            "total": 36,
+            "covered": 19,
+            "skipped": 0,
+            "pct": 52.77
+        },
+        "functions": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 36,
+            "covered": 19,
+            "skipped": 0,
+            "pct": 52.77
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/autosuggest/validation.js": {
+        "lines": {
+            "total": 26,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 69.23
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 26,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 69.23
+        },
+        "branches": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/aws-services/awsServiceProvider.js": {
+        "lines": {
+            "total": 24,
+            "covered": 15,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "functions": {
+            "total": 3,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "statements": {
+            "total": 24,
+            "covered": 15,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/aws-services/awsebs.js": {
+        "lines": {
+            "total": 35,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 22.85
+        },
+        "functions": {
+            "total": 11,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 40,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 20
+        },
+        "branches": {
+            "total": 16,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 12.5
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/billing/billingController.js": {
+        "lines": {
+            "total": 86,
+            "covered": 15,
+            "skipped": 0,
+            "pct": 17.44
+        },
+        "functions": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 86,
+            "covered": 15,
+            "skipped": 0,
+            "pct": 17.44
+        },
+        "branches": {
+            "total": 66,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/billing/billingUtils.js": {
+        "lines": {
+            "total": 3,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 66.66
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 3,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 66.66
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/bot/botConfig.js": {
+        "lines": {
+            "total": 11,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 54.54
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 11,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 54.54
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/bot/botController.js": {
+        "lines": {
+            "total": 48,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 18.75
+        },
+        "functions": {
+            "total": 21,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 48,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 18.75
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/bot/botService.js": {
+        "lines": {
+            "total": 85,
+            "covered": 24,
+            "skipped": 0,
+            "pct": 28.23
+        },
+        "functions": {
+            "total": 22,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 85,
+            "covered": 24,
+            "skipped": 0,
+            "pct": 28.23
+        },
+        "branches": {
+            "total": 26,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/bot/botValidation.js": {
+        "lines": {
+            "total": 6,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 6,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/bot/constants.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botAnalytics/botAnalytics.js": {
+        "lines": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botAnalytics/botAnalyticsController.js": {
+        "lines": {
+            "total": 26,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 19.23
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 26,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 19.23
+        },
+        "branches": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botAnalytics/botAnalyticsService.js": {
+        "lines": {
+            "total": 91,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 15.38
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 92,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 15.21
+        },
+        "branches": {
+            "total": 47,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botAnalytics/botAnalyticsValidation.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botAnalytics/constant.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/botActions/Action.js": {
+        "lines": {
+            "total": 11,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 54.54
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 11,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 54.54
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/botActions/actionController.js": {
+        "lines": {
+            "total": 18,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 18,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/botActions/actionService.js": {
+        "lines": {
+            "total": 25,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 24
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 25,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 24
+        },
+        "branches": {
+            "total": 14,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/botActions/actionValidator.js": {
+        "lines": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/nlpModel/nlpModel.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/nlpModel/nlpModelService.js": {
+        "lines": {
+            "total": 9,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 9,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/smartReplies/constants.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/smartReplies/smartRepliesController.js": {
+        "lines": {
+            "total": 79,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 13.92
+        },
+        "functions": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 80,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 13.75
+        },
+        "branches": {
+            "total": 36,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/smartReplies/smartRepliesService.js": {
+        "lines": {
+            "total": 358,
+            "covered": 27,
+            "skipped": 0,
+            "pct": 7.54
+        },
+        "functions": {
+            "total": 34,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 366,
+            "covered": 27,
+            "skipped": 0,
+            "pct": 7.37
+        },
+        "branches": {
+            "total": 230,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/smartReplies/smartRepliesValidation.js": {
+        "lines": {
+            "total": 12,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 75
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 13,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 69.23
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/trainingPhrases/trainingPhrases.js": {
+        "lines": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/botBuilder/trainingPhrases/trainingPhrasesService.js": {
+        "lines": {
+            "total": 51,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 17.64
+        },
+        "functions": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 51,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 17.64
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cache/cacheKeyMap.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cache/hazelCacheClient.js": {
+        "lines": {
+            "total": 70,
+            "covered": 22,
+            "skipped": 0,
+            "pct": 31.42
+        },
+        "functions": {
+            "total": 17,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 11.76
+        },
+        "statements": {
+            "total": 70,
+            "covered": 22,
+            "skipped": 0,
+            "pct": 31.42
+        },
+        "branches": {
+            "total": 23,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 4.34
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chargebee/chargebeeController.js": {
+        "lines": {
+            "total": 103,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 13.59
+        },
+        "functions": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 103,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 13.59
+        },
+        "branches": {
+            "total": 54,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chargebee/chargebeeService.js": {
+        "lines": {
+            "total": 39,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 25.64
+        },
+        "functions": {
+            "total": 15,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 39,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 25.64
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chat-demo/chatController.js": {
+        "lines": {
+            "total": 3,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 66.66
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 3,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 66.66
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatDisposition/chatDispositionController.js": {
+        "lines": {
+            "total": 97,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 20.61
+        },
+        "functions": {
+            "total": 52,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 97,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 20.61
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatDisposition/chatDispositionService.js": {
+        "lines": {
+            "total": 39,
+            "covered": 22,
+            "skipped": 0,
+            "pct": 56.41
+        },
+        "functions": {
+            "total": 17,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 39,
+            "covered": 22,
+            "skipped": 0,
+            "pct": 56.41
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatDisposition/chatDispositionValidator.js": {
+        "lines": {
+            "total": 16,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 16,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/chatPlatform.js": {
+        "lines": {
+            "total": 17,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 52.94
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 17,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 52.94
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/chatPlatformController.js": {
+        "lines": {
+            "total": 92,
+            "covered": 27,
+            "skipped": 0,
+            "pct": 29.34
+        },
+        "functions": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 92,
+            "covered": 27,
+            "skipped": 0,
+            "pct": 29.34
+        },
+        "branches": {
+            "total": 42,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/chatPlatformService.js": {
+        "lines": {
+            "total": 86,
+            "covered": 24,
+            "skipped": 0,
+            "pct": 27.9
+        },
+        "functions": {
+            "total": 13,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 86,
+            "covered": 24,
+            "skipped": 0,
+            "pct": 27.9
+        },
+        "branches": {
+            "total": 22,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/validation.js": {
+        "lines": {
+            "total": 16,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 16,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/facebook/facebookConstants.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/facebook/facebookController.js": {
+        "lines": {
+            "total": 53,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 20.75
+        },
+        "functions": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 53,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 20.75
+        },
+        "branches": {
+            "total": 13,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/facebook/facebookService.js": {
+        "lines": {
+            "total": 145,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 13.79
+        },
+        "functions": {
+            "total": 28,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 145,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 13.79
+        },
+        "branches": {
+            "total": 14,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/line/lineClient.js": {
+        "lines": {
+            "total": 13,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 46.15
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 13,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 46.15
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/line/lineController.js": {
+        "lines": {
+            "total": 39,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 35.89
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 39,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 35.89
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/line/lineService.js": {
+        "lines": {
+            "total": 58,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 31.03
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 58,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 31.03
+        },
+        "branches": {
+            "total": 14,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/line/lineValidation.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/telegram/telegramClient.js": {
+        "lines": {
+            "total": 16,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 43.75
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 16,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 43.75
+        },
+        "branches": {
+            "total": 5,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/telegram/telegramController.js": {
+        "lines": {
+            "total": 39,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 35.89
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 39,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 35.89
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/telegram/telegramService.js": {
+        "lines": {
+            "total": 52,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 34.61
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 52,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 34.61
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/telegram/telegramValidation.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/constant.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/whatsappController.js": {
+        "lines": {
+            "total": 6,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 6,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/dialog360/dialog360Client.js": {
+        "lines": {
+            "total": 15,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 15,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/dialog360/dialog360Controller.js": {
+        "lines": {
+            "total": 45,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 24.44
+        },
+        "functions": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 45,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 24.44
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/dialog360/dialog360Service.js": {
+        "lines": {
+            "total": 80,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 21.25
+        },
+        "functions": {
+            "total": 5,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 80,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 21.25
+        },
+        "branches": {
+            "total": 30,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/twilio/twilioController.js": {
+        "lines": {
+            "total": 76,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 21.05
+        },
+        "functions": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 76,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 21.05
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/twilio/twilioService.js": {
+        "lines": {
+            "total": 55,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 29.09
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 55,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 29.09
+        },
+        "branches": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/twilio/whatsappTemplate.js": {
+        "lines": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/chatPlatform/whatsapp/twilio/whatsappTemplateService.js": {
+        "lines": {
+            "total": 30,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 46.66
+        },
+        "functions": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 31,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 45.16
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/context/context.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/context/contextController.js": {
+        "lines": {
+            "total": 19,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 26.31
+        },
+        "functions": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 19,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 26.31
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/context/contextService.js": {
+        "lines": {
+            "total": 8,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 37.5
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 8,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 37.5
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/context/contextValidation.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/conversation/conversationController.js": {
+        "lines": {
+            "total": 28,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 25
+        },
+        "functions": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 28,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 25
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/conversation/conversationService.js": {
+        "lines": {
+            "total": 107,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 16.82
+        },
+        "functions": {
+            "total": 27,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 109,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 16.51
+        },
+        "branches": {
+            "total": 32,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/conversation/conversationUtils.js": {
+        "lines": {
+            "total": 6,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 6,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 16.66
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/conversation/validation.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/cronJobInitializer.js": {
+        "lines": {
+            "total": 13,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 53.84
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 13,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 53.84
+        },
+        "branches": {
+            "total": 11,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 18.18
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/cronMapper.js": {
+        "lines": {
+            "total": 6,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 6,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/cronService.js": {
+        "lines": {
+            "total": 34,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 11.76
+        },
+        "functions": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 34,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 11.76
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/crons/conversationAutoClose.js": {
+        "lines": {
+            "total": 48,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 25
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 52,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 23.07
+        },
+        "branches": {
+            "total": 19,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/crons/facebookTokenRefresh.js": {
+        "lines": {
+            "total": 34,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 29.41
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 35,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 28.57
+        },
+        "branches": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/crons/trialProcess.js": {
+        "lines": {
+            "total": 86,
+            "covered": 26,
+            "skipped": 0,
+            "pct": 30.23
+        },
+        "functions": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 90,
+            "covered": 26,
+            "skipped": 0,
+            "pct": 28.88
+        },
+        "branches": {
+            "total": 34,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/crons/waitingQueue.js": {
+        "lines": {
+            "total": 47,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 25.53
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 51,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 23.52
+        },
+        "branches": {
+            "total": 21,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/cron/crons/weeklyReport.js": {
+        "lines": {
+            "total": 138,
+            "covered": 27,
+            "skipped": 0,
+            "pct": 19.56
+        },
+        "functions": {
+            "total": 34,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 140,
+            "covered": 27,
+            "skipped": 0,
+            "pct": 19.28
+        },
+        "branches": {
+            "total": 48,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/customer/applicationController.js": {
+        "lines": {
+            "total": 27,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 25.92
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 27,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 25.92
+        },
+        "branches": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/customer/applicationService.js": {
+        "lines": {
+            "total": 47,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 34.04
+        },
+        "functions": {
+            "total": 24,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 4.16
+        },
+        "statements": {
+            "total": 47,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 34.04
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/customer/customerService.js": {
+        "lines": {
+            "total": 229,
+            "covered": 47,
+            "skipped": 0,
+            "pct": 20.52
+        },
+        "functions": {
+            "total": 45,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 232,
+            "covered": 47,
+            "skipped": 0,
+            "pct": 20.25
+        },
+        "branches": {
+            "total": 104,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/database/dataMigrartionProc.js": {
+        "lines": {
+            "total": 18,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 27.77
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 19,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 26.31
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/database/hashkeyMigrationProc.js": {
+        "lines": {
+            "total": 24,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 29.16
+        },
+        "functions": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 24,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 29.16
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/database/mongoDataSource.js": {
+        "lines": {
+            "total": 14,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 57.14
+        },
+        "functions": {
+            "total": 6,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "statements": {
+            "total": 14,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 57.14
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/elastic-search/elasticClient.js": {
+        "lines": {
+            "total": 10,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 30
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 10,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 30
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/elastic-search/elasticSearchController.js": {
+        "lines": {
+            "total": 8,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 8,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 62.5
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/events/constant.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/events/eventProcessor.js": {
+        "lines": {
+            "total": 54,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 22.22
+        },
+        "functions": {
+            "total": 16,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 55,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 21.81
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/events/groupEventProcessor.js": {
+        "lines": {
+            "total": 113,
+            "covered": 19,
+            "skipped": 0,
+            "pct": 16.81
+        },
+        "functions": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 113,
+            "covered": 19,
+            "skipped": 0,
+            "pct": 16.81
+        },
+        "branches": {
+            "total": 49,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/events/userEventProcessor.js": {
+        "lines": {
+            "total": 92,
+            "covered": 23,
+            "skipped": 0,
+            "pct": 25
+        },
+        "functions": {
+            "total": 19,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 92,
+            "covered": 23,
+            "skipped": 0,
+            "pct": 25
+        },
+        "branches": {
+            "total": 67,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/feedback/feedbackController.js": {
+        "lines": {
+            "total": 78,
+            "covered": 23,
+            "skipped": 0,
+            "pct": 29.48
+        },
+        "functions": {
+            "total": 34,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 78,
+            "covered": 23,
+            "skipped": 0,
+            "pct": 29.48
+        },
+        "branches": {
+            "total": 16,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/feedback/feedbackService.js": {
+        "lines": {
+            "total": 169,
+            "covered": 26,
+            "skipped": 0,
+            "pct": 15.38
+        },
+        "functions": {
+            "total": 27,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 169,
+            "covered": 26,
+            "skipped": 0,
+            "pct": 15.38
+        },
+        "branches": {
+            "total": 80,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/feedback/feedbackValidator.js": {
+        "lines": {
+            "total": 9,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 9,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/googleAuth/constants.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/googleAuth/dialogflowController.js": {
+        "lines": {
+            "total": 35,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 28.57
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 35,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 28.57
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/googleAuth/dialogflowServices.js": {
+        "lines": {
+            "total": 112,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 17.85
+        },
+        "functions": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 113,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 17.69
+        },
+        "branches": {
+            "total": 30,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/googleAuth/googleAuthController.js": {
+        "lines": {
+            "total": 102,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 15.68
+        },
+        "functions": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 102,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 15.68
+        },
+        "branches": {
+            "total": 36,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/googleAuth/googleServices.js": {
+        "lines": {
+            "total": 13,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 46.15
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 13,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 46.15
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/googleAuth/validation.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/handlers/error.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/handlers/kommunicate.js": {
+        "lines": {
+            "total": 16,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 18.75
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 16,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 18.75
+        },
+        "branches": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/intentCluster/intentCluster.js": {
+        "lines": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 5,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/intentCluster/intentClusterController.js": {
+        "lines": {
+            "total": 9,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 9,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/intentCluster/intentClusterService.js": {
+        "lines": {
+            "total": 13,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 38.46
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 13,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 38.46
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/iosAppSiteAssociation/iosAppSiteAssociationController.js": {
+        "lines": {
+            "total": 2,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 50
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 2,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 50
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/login/loginController.js": {
+        "lines": {
+            "total": 65,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 15.38
+        },
+        "functions": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 65,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 15.38
+        },
+        "branches": {
+            "total": 23,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/login/loginService.js": {
+        "lines": {
+            "total": 93,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 17.2
+        },
+        "functions": {
+            "total": 14,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 93,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 17.2
+        },
+        "branches": {
+            "total": 41,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/login/validation.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/mail/mailController.js": {
+        "lines": {
+            "total": 125,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 12.8
+        },
+        "functions": {
+            "total": 13,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 126,
+            "covered": 16,
+            "skipped": 0,
+            "pct": 12.69
+        },
+        "branches": {
+            "total": 72,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/mail/validation.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/marketPlace/constant.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/marketPlace/marketPlaceController.js": {
+        "lines": {
+            "total": 45,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 15.55
+        },
+        "functions": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 45,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 15.55
+        },
+        "branches": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/marketPlace/marketPlaceService.js": {
+        "lines": {
+            "total": 90,
+            "covered": 33,
+            "skipped": 0,
+            "pct": 36.66
+        },
+        "functions": {
+            "total": 13,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 90,
+            "covered": 33,
+            "skipped": 0,
+            "pct": 36.66
+        },
+        "branches": {
+            "total": 18,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/marketPlace/validation.js": {
+        "lines": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/metabase/metabaseController.js": {
+        "lines": {
+            "total": 76,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 15.78
+        },
+        "functions": {
+            "total": 15,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 76,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 15.78
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/metabase/metabaseObjConstant.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/metabase/metabaseQuery.js": {
+        "lines": {
+            "total": 6,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 6,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/metabase/metabaseService.js": {
+        "lines": {
+            "total": 58,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 20.68
+        },
+        "functions": {
+            "total": 15,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 59,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 20.33
+        },
+        "branches": {
+            "total": 16,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/metabase/validation.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/AppSetting.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/AppSubscription.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/ApplicationProductRef.js": {
+        "lines": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/AutoSuggest.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/BusinessHour.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/Category.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/ChatPopupMessage.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/Disposition.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/DispositionXrefMapper.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/Feedback.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/InAppEvent.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/InAppMsg.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/MarketPlaceSetting.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/Onboarding.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/PasswordResetRequest.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/Preference.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/SSOSettings.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/SubDisposition.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/Tags.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/ThirdPartyIntegrationSettings.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/ThirdPartyUserIdMap.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/UserAuthentication.js": {
+        "lines": {
+            "total": 9,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 66.66
+        },
+        "functions": {
+            "total": 2,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 50
+        },
+        "statements": {
+            "total": 9,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 66.66
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/UserPreferences.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/VerifyChangeRequest.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/application.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/cronLastRun.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/customer.js": {
+        "lines": {
+            "total": 7,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 57.14
+        },
+        "functions": {
+            "total": 4,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 25
+        },
+        "statements": {
+            "total": 7,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 57.14
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/index.js": {
+        "lines": {
+            "total": 77,
+            "covered": 74,
+            "skipped": 0,
+            "pct": 96.1
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 77,
+            "covered": 74,
+            "skipped": 0,
+            "pct": 96.1
+        },
+        "branches": {
+            "total": 5,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 40
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/teammateInvite.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/models/user.js": {
+        "lines": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "functions": {
+            "total": 3,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 33.33
+        },
+        "statements": {
+            "total": 12,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 58.33
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/mongodb/collections.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/onboarding/onboardingController.js": {
+        "lines": {
+            "total": 25,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 20
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 25,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 20
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/onboarding/onboardingService.js": {
+        "lines": {
+            "total": 30,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 20
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 30,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 20
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/onboarding/validation.js": {
+        "lines": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/passwordreset/passwordResetController.js": {
+        "lines": {
+            "total": 48,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 14.58
+        },
+        "functions": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 48,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 14.58
+        },
+        "branches": {
+            "total": 16,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/passwordreset/passwordResetService.js": {
+        "lines": {
+            "total": 64,
+            "covered": 22,
+            "skipped": 0,
+            "pct": 34.37
+        },
+        "functions": {
+            "total": 19,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 64,
+            "covered": 22,
+            "skipped": 0,
+            "pct": 34.37
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/pipedrive/pipedrive.js": {
+        "lines": {
+            "total": 25,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 20
+        },
+        "functions": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 25,
+            "covered": 5,
+            "skipped": 0,
+            "pct": 20
+        },
+        "branches": {
+            "total": 16,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/profileImage/profileImageController.js": {
+        "lines": {
+            "total": 50,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 14
+        },
+        "functions": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 54,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 12.96
+        },
+        "branches": {
+            "total": 28,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/profileImage/profileImageService.js": {
+        "lines": {
+            "total": 60,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 13.33
+        },
+        "functions": {
+            "total": 13,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 60,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 13.33
+        },
+        "branches": {
+            "total": 21,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 4.76
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/register/bots.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/register/registerController.js": {
+        "lines": {
+            "total": 239,
+            "covered": 28,
+            "skipped": 0,
+            "pct": 11.71
+        },
+        "functions": {
+            "total": 35,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 239,
+            "covered": 28,
+            "skipped": 0,
+            "pct": 11.71
+        },
+        "branches": {
+            "total": 113,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/register/registrationService.js": {
+        "lines": {
+            "total": 155,
+            "covered": 34,
+            "skipped": 0,
+            "pct": 21.93
+        },
+        "functions": {
+            "total": 34,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 155,
+            "covered": 34,
+            "skipped": 0,
+            "pct": 21.93
+        },
+        "branches": {
+            "total": 36,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/register/subscriptionPlans.js": {
+        "lines": {
+            "total": 52,
+            "covered": 52,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 52,
+            "covered": 52,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/register/validation.js": {
+        "lines": {
+            "total": 8,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 8,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/routers/auth.routes.js": {
+        "lines": {
+            "total": 66,
+            "covered": 45,
+            "skipped": 0,
+            "pct": 68.18
+        },
+        "functions": {
+            "total": 5,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 66,
+            "covered": 45,
+            "skipped": 0,
+            "pct": 68.18
+        },
+        "branches": {
+            "total": 17,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/routers/main.routes.js": {
+        "lines": {
+            "total": 71,
+            "covered": 52,
+            "skipped": 0,
+            "pct": 73.23
+        },
+        "functions": {
+            "total": 3,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 71,
+            "covered": 52,
+            "skipped": 0,
+            "pct": 73.23
+        },
+        "branches": {
+            "total": 13,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/routers/open.routes.js": {
+        "lines": {
+            "total": 41,
+            "covered": 41,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 41,
+            "covered": 41,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/routers/routes.js": {
+        "lines": {
+            "total": 359,
+            "covered": 355,
+            "skipped": 0,
+            "pct": 98.88
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 359,
+            "covered": 355,
+            "skipped": 0,
+            "pct": 98.88
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/samlAuth/samlAuthController.js": {
+        "lines": {
+            "total": 34,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 26.47
+        },
+        "functions": {
+            "total": 1,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 34,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 26.47
+        },
+        "branches": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/application/appSettingController.js": {
+        "lines": {
+            "total": 49,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 20.4
+        },
+        "functions": {
+            "total": 20,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 49,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 20.4
+        },
+        "branches": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/application/appSettingService.js": {
+        "lines": {
+            "total": 206,
+            "covered": 34,
+            "skipped": 0,
+            "pct": 16.5
+        },
+        "functions": {
+            "total": 42,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 2.38
+        },
+        "statements": {
+            "total": 209,
+            "covered": 34,
+            "skipped": 0,
+            "pct": 16.26
+        },
+        "branches": {
+            "total": 125,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/application/chatPopupMessageController.js": {
+        "lines": {
+            "total": 37,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 16.21
+        },
+        "functions": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 37,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 16.21
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/application/chatPopupMessageService.js": {
+        "lines": {
+            "total": 52,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 19.23
+        },
+        "functions": {
+            "total": 16,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 52,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 19.23
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/application/validation.js": {
+        "lines": {
+            "total": 8,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 8,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/thirdPartyIntegration/integrationSettingController.js": {
+        "lines": {
+            "total": 50,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 20
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 50,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 20
+        },
+        "branches": {
+            "total": 18,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/thirdPartyIntegration/integrationSettingService.js": {
+        "lines": {
+            "total": 75,
+            "covered": 24,
+            "skipped": 0,
+            "pct": 32
+        },
+        "functions": {
+            "total": 14,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 75,
+            "covered": 24,
+            "skipped": 0,
+            "pct": 32
+        },
+        "branches": {
+            "total": 22,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/setting/thirdPartyIntegration/validation.js": {
+        "lines": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/shopify/shopifyController.js": {
+        "lines": {
+            "total": 136,
+            "covered": 28,
+            "skipped": 0,
+            "pct": 20.58
+        },
+        "functions": {
+            "total": 11,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 136,
+            "covered": 28,
+            "skipped": 0,
+            "pct": 20.58
+        },
+        "branches": {
+            "total": 43,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 2.32
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/sqlQueries/queries.js": {
+        "lines": {
+            "total": 16,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 37.5
+        },
+        "functions": {
+            "total": 5,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 16,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 37.5
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/ssoSettings/constants.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/ssoSettings/ssoSettingsController.js": {
+        "lines": {
+            "total": 33,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 36.36
+        },
+        "functions": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 33,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 36.36
+        },
+        "branches": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/ssoSettings/ssoSettingsService.js": {
+        "lines": {
+            "total": 89,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 20.22
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 89,
+            "covered": 18,
+            "skipped": 0,
+            "pct": 20.22
+        },
+        "branches": {
+            "total": 23,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/ssoSettings/validation.js": {
+        "lines": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 4,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/subscription/subscriptionController.js": {
+        "lines": {
+            "total": 50,
+            "covered": 13,
+            "skipped": 0,
+            "pct": 26
+        },
+        "functions": {
+            "total": 5,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 50,
+            "covered": 13,
+            "skipped": 0,
+            "pct": 26
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/subscription/subscriptionService.js": {
+        "lines": {
+            "total": 44,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 31.81
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 44,
+            "covered": 14,
+            "skipped": 0,
+            "pct": 31.81
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/subscription/subscriptionValidation.js": {
+        "lines": {
+            "total": 11,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 11,
+            "covered": 11,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/tags/tagsController.js": {
+        "lines": {
+            "total": 40,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 20
+        },
+        "functions": {
+            "total": 18,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 40,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 20
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/tags/tagsService.js": {
+        "lines": {
+            "total": 76,
+            "covered": 13,
+            "skipped": 0,
+            "pct": 17.1
+        },
+        "functions": {
+            "total": 9,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 76,
+            "covered": 13,
+            "skipped": 0,
+            "pct": 17.1
+        },
+        "branches": {
+            "total": 24,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/tags/tagsValidation.js": {
+        "lines": {
+            "total": 7,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 7,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/thirdpartyintegrations/constants.js": {
+        "lines": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 1,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/thirdpartyintegrations/zapier/zapierController.js": {
+        "lines": {
+            "total": 70,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 14.28
+        },
+        "functions": {
+            "total": 7,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 70,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 14.28
+        },
+        "branches": {
+            "total": 42,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/thirdpartyintegrations/zapier/zapierService.js": {
+        "lines": {
+            "total": 71,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 23.94
+        },
+        "functions": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 72,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 23.61
+        },
+        "branches": {
+            "total": 30,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/tools/toolsController.js": {
+        "lines": {
+            "total": 58,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 20.68
+        },
+        "functions": {
+            "total": 18,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 58,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 20.68
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/tools/toolsService.js": {
+        "lines": {
+            "total": 51,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 39.21
+        },
+        "functions": {
+            "total": 14,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 51,
+            "covered": 20,
+            "skipped": 0,
+            "pct": 39.21
+        },
+        "branches": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/tools/validation.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/userAuthentication/userAuthenticationService.js": {
+        "lines": {
+            "total": 44,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 27.27
+        },
+        "functions": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 44,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 27.27
+        },
+        "branches": {
+            "total": 10,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/users/constants.js": {
+        "lines": {
+            "total": 10,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 10,
+            "covered": 10,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/users/userController.js": {
+        "lines": {
+            "total": 489,
+            "covered": 58,
+            "skipped": 0,
+            "pct": 11.86
+        },
+        "functions": {
+            "total": 116,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 489,
+            "covered": 58,
+            "skipped": 0,
+            "pct": 11.86
+        },
+        "branches": {
+            "total": 183,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/users/userPreferenceController.js": {
+        "lines": {
+            "total": 32,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 18.75
+        },
+        "functions": {
+            "total": 12,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 32,
+            "covered": 6,
+            "skipped": 0,
+            "pct": 18.75
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/users/userPreferenceService.js": {
+        "lines": {
+            "total": 74,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 16.21
+        },
+        "functions": {
+            "total": 24,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 76,
+            "covered": 12,
+            "skipped": 0,
+            "pct": 15.78
+        },
+        "branches": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/users/userService.js": {
+        "lines": {
+            "total": 791,
+            "covered": 162,
+            "skipped": 0,
+            "pct": 20.48
+        },
+        "functions": {
+            "total": 174,
+            "covered": 1,
+            "skipped": 0,
+            "pct": 0.57
+        },
+        "statements": {
+            "total": 798,
+            "covered": 162,
+            "skipped": 0,
+            "pct": 20.3
+        },
+        "branches": {
+            "total": 301,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/users/validation.js": {
+        "lines": {
+            "total": 33,
+            "covered": 33,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 33,
+            "covered": 33,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/applozicClient.js": {
+        "lines": {
+            "total": 516,
+            "covered": 63,
+            "skipped": 0,
+            "pct": 12.2
+        },
+        "functions": {
+            "total": 121,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 516,
+            "covered": 63,
+            "skipped": 0,
+            "pct": 12.2
+        },
+        "branches": {
+            "total": 222,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/constant.js": {
+        "lines": {
+            "total": 38,
+            "covered": 38,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 38,
+            "covered": 38,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/dbUtils.js": {
+        "lines": {
+            "total": 7,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 28.57
+        },
+        "functions": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 7,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 28.57
+        },
+        "branches": {
+            "total": 2,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/features.js": {
+        "lines": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 2,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/fileService.js": {
+        "lines": {
+            "total": 16,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 25
+        },
+        "functions": {
+            "total": 6,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 16,
+            "covered": 4,
+            "skipped": 0,
+            "pct": 25
+        },
+        "branches": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/logger.js": {
+        "lines": {
+            "total": 10,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 90
+        },
+        "functions": {
+            "total": 3,
+            "covered": 2,
+            "skipped": 0,
+            "pct": 66.66
+        },
+        "statements": {
+            "total": 10,
+            "covered": 9,
+            "skipped": 0,
+            "pct": 90
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/mailService.js": {
+        "lines": {
+            "total": 73,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 23.28
+        },
+        "functions": {
+            "total": 11,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 73,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 23.28
+        },
+        "branches": {
+            "total": 44,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/utils/utils.js": {
+        "lines": {
+            "total": 18,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 44.44
+        },
+        "functions": {
+            "total": 4,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 18,
+            "covered": 8,
+            "skipped": 0,
+            "pct": 44.44
+        },
+        "branches": {
+            "total": 8,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/zendesk/constants.js": {
+        "lines": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 3,
+            "covered": 3,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/zendesk/validation.js": {
+        "lines": {
+            "total": 7,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 100
+        },
+        "functions": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        },
+        "statements": {
+            "total": 7,
+            "covered": 7,
+            "skipped": 0,
+            "pct": 100
+        },
+        "branches": {
+            "total": 0,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 100
+        }
+    },
+    "/Users/shantnugarg/work/Kommunicate-Server/src/zendesk/zendeskController.js": {
+        "lines": {
+            "total": 114,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 14.91
+        },
+        "functions": {
+            "total": 19,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        },
+        "statements": {
+            "total": 114,
+            "covered": 17,
+            "skipped": 0,
+            "pct": 14.91
+        },
+        "branches": {
+            "total": 54,
+            "covered": 0,
+            "skipped": 0,
+            "pct": 0
+        }
+    }
+}
