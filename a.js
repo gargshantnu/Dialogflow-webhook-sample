@@ -4,17 +4,17 @@ const fileName = './coverage-final.json';
 const result = require(fileName);
 const fs = require("fs");
 
-console.log('a.js: ', JSON.stringify(result));
-fs.readdir('./coverage', (err, files) => {
-    files.forEach(file => {
-        console.log(file);
-    });
-});
+// console.log('a.js: ', JSON.stringify(result));
+// fs.readdir('./coverage', (err, files) => {
+//     files.forEach(file => {
+//         console.log(file);
+//     });
+// });
 
-fs.readFile(fileName, 'utf8', (err, data) => {
-    if (err) {
-        console.error(err)
-        return
-    }
-    console.log("data: ", data);
-})
+// fs.readFile(fileName, 'utf8', (err, data) => {
+//     if (err) {
+//         console.error(err)
+//         return
+//     }
+//     console.log("data: ", data);
+// })
