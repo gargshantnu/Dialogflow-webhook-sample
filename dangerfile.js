@@ -5,46 +5,6 @@ const {
   markdown,
 } = require("danger");
 
-// // const {
-// //   codeCoverage
-// // } = require("danger-plugin-code-coverage");
-// // codeCoverage();
-
-// // const { istanbulCoverage } = require("danger-plugin-istanbul-coverage");
-
-// // schedule(istanbulCoverage()) // Use default configuration
-
-// // schedule(istanbulCoverage({
-// //   // Set a custom success message
-// //   customSuccessMessage: "Congrats, coverage is good",
-
-// //   // Set a custom failure message
-// //   customFailureMessage: "Coverage is a little low, take a look",
-
-// //   // How to sort the entries in the table
-// //   entrySortMethod: "alphabetical", // || "least-coverage" || "most-coverage" || "largest-file-size" ||"smallest-file-size" || "uncovered-lines"
-
-// //   // Add a maximum number of entries to display
-// //   numberOfEntries: 10,
-
-// //   // The location of the istanbul coverage file.
-// //   coveragePath: "./coverage/coverage-final.json",
-
-// //   // Which set of files to summarise from the coverage file.
-// //   reportFileSet: "all", // || "modified" || "created" || "createdOrModified"
-
-// //   // What to do when the PR doesn't meet the minimum code coverage threshold
-// //   reportMode: "message", // || "warn" || "fail"
-
-// //   // Minimum coverage threshold percentages. Compared against the cumulative coverage of the reportFileSet.
-// //   threshold: {
-// //     statements: 100,
-// //     branches: 100,
-// //     functions: 100,
-// //     lines: 100,
-// //   }
-// // }))
-
 
 // if (danger.github.pr.title.toLowerCase().includes("[wip]")) {
 //   warn("PR is classed as Work in Progress")
@@ -135,29 +95,35 @@ const {
 // });
 
 
-const result = require('./coverage/coverage-summary.json');
-const coverage = result.total;
-// console.log("code: ", result);
-// console.log("code coverage: ", coverage);
-// console.log("coverage.functions: ", coverage.functions);
-// console.log("coverage.lines: ", coverage.lines);
-// console.log("coverage.statements: ", coverage.statements);
-// message(`coverage ${coverage}`);
+const newCoverageReport = require('./coverage/coverage-summary.json');
+// const masterCoverageReport = require('./newCoverage.json');
+const newCoverage = newCoverageReport.total;
+// const masterCoverage = masterCoverageReport.total;
 
-// const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
+// const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${newCoverage.functions.pct.padStart(10)} ${"2".padStart(10)}\n`;
+// const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${newCoverage.lines.pct.padStart(10)} ${"2".padStart(10)}\n`;
+// const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${newCoverage.statements.pct.padStart(10)} ${"2".padStart(10)}\n`;
 
-const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${coverage.functions.pct.padStart(10)} ${"2".padStart(10)}\n`;
-const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} ${"2".padStart(10)}\n`;
-const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} ${"2".padStart(10)}\n`;
+const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${newCoverage.functions.pct.padStart(10)} ${"2".padStart(10)}\n`;
+const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${newCoverage.lines.pct.padStart(10)} ${"2".padStart(10)}\n`;
+const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${newCoverage.statements.pct.padStart(10)} ${"2".padStart(10)}\n`;
 
 const prNumber = `#${danger.github.pr.number.toString()}`.padStart(10);
 
-const msg = "\n ```diff \n @@          Coverage Difference          @@"
-  + `\n ${"##".padEnd(9)} ${"master".padStart(10)} ${prNumber} ${"+/-".padStart(10)}\n========== ========== ========== ==========\n` 
+
+// const msg = "\n ```diff \n @@          Coverage Difference          @@"
+//   + `\n ${"##".padEnd(9)} ${"master".padStart(10)} ${prNumber} ${"+/-".padStart(10)}\n========== ========== ========== ==========\n` 
+//   + functionCoverage
+//   + lineCoverage
+//   + statementCoverage + "========== ========== ========== ========== \n"
+//   + " ```";
+
+const msg = "\n ```diff \n @@     Coverage Difference     @@"
+  + `\n ${"##".padEnd(9)} ${"master".padStart(10)} ${prNumber} \n========== ========== ==========\n` 
   + functionCoverage
   + lineCoverage
-  + statementCoverage + "========== ========== ========== ========== \n"
-  + " ```";
+  + statementCoverage + "========== ========== ==========\n"
+  + "```";
 
 
 markdown(`## Code Coverage ${msg}`);
