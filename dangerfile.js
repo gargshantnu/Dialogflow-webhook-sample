@@ -119,7 +119,7 @@ const prNumber = `#${danger.github.pr.number.toString()}`.padStart(16);
 //   + " ```";
 
 const msg = "\n ```diff \n @@     Coverage Difference     @@"
-  + `\n ${"##".padEnd(15)} ${prNumber} \n================ ================\n` 
+  + `\n ${"##".padEnd(15)} ${prNumber}\n================ ================\n` 
   + functionCoverage
   + lineCoverage
   + statementCoverage + "================ ================\n"
