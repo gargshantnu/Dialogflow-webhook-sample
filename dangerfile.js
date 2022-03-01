@@ -125,5 +125,4 @@ const msg = "\n ```diff \n @@     Coverage Difference     @@"
   + statementCoverage + "================ ================\n"
   + "```";
 
-
 markdown(`## Code Coverage ${msg}`);
