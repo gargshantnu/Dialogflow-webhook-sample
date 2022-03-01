@@ -2,7 +2,7 @@ const {
   message,
   danger,
   warn,
-  markdown
+  markdown,
 } = require("danger");
 
 // const {
@@ -141,7 +141,20 @@ console.log("code: ", result);
 console.log("code coverage: ", coverage);
 // message(`coverage ${coverage}`);
 
-const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
+// const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
+
+const functionCoverage = `${"Functions".padStart(10)} ${"?".padStart(10)} ${coverage.functions.pct.padStart(10)} \n `;
+const lineCoverage = `${"Lines".padStart(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} \n `;
+const statementCoverage = `${"Statement".padStart(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} \n `;
+
+const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
+  + "\n ##             master     #428   +/-   ## \n ========================================= \n " 
+  + functionCoverage + "========================================= \n "
+  + lineCoverage + "========================================= \n "
+  + statementCoverage + "========================================= \n "
+  + " ```";
+
+
 markdown(`## Code Coverage ${msg}`);
 // const fs = require("fs");
 // fs.readdir('./', (err, files) => {
