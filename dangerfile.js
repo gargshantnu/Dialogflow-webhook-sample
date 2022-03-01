@@ -139,6 +139,9 @@ const result = require('./coverage/coverage-summary.json');
 const coverage = JSON.stringify(result.total)
 console.log("code: ", result);
 console.log("code coverage: ", coverage);
+console.log("coverage.functions: ", coverage.functions);
+console.log("coverage.lines: ", coverage.lines);
+console.log("coverage.statements: ", coverage);
 // message(`coverage ${coverage}`);
 
 // const msg = " \n ```diff \n @@            Coverage Diff            @@ \n ##             master     #428   +/-   ## \n ========================================= \n   Coverage          ?   27.89%            \n ========================================= \n   Functions             ?      239            \n   Statements             ?    11368            \n   Lines          ?        0            \n ========================================= \n ```";
