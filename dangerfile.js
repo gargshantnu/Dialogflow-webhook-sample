@@ -150,10 +150,9 @@ const functionCoverage = `${"Functions".padEnd(10)} ${"?".padStart(10)} ${covera
 const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${coverage.lines.pct.padStart(10)} \n `;
 const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} \n `;
 
-console.log("danger.github.pr.number: ", danger.github.pr);
 
 const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
-  + `\n ##             master     #${danger.github.pr.number}   +/-   ## \n ========================================= \n ` 
+  + `\n ##             master     #${danger.github.pr.number.padStart(10)}}   +/-   ## \n ========================================= \n ` 
   + functionCoverage + " \n "
   + lineCoverage + " \n "
   + statementCoverage + "========================================= \n "
