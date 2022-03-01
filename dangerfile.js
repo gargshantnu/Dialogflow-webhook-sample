@@ -139,6 +139,22 @@ const coverage = JSON.stringify(result.total)
 console.log("code: ", result);
 console.log("code coverage: ", coverage);
 message(`coverage ${coverage}`);
+
+const msg = ```diff
+@@            Coverage Diff            @@
+##             master     #428   +/-   ##
+=========================================
+  Coverage          ?   27.89%           
+=========================================
+  Files             ?      239           
+  Lines             ?    11368           
+  Branches          ?        0           
+=========================================
+  Hits              ?     3171           
+  Misses            ?     8197           
+  Partials          ?        0           
+```;
+message(`msg ${msg}`);
 // const fs = require("fs");
 // fs.readdir('./', (err, files) => {
 //   files.forEach(file => {
