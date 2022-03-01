@@ -14,7 +14,7 @@
     "runDangerLocal": "danger local",
     "runDangerTest": "(danger ci)&& (node a.js)"
   },
-  "author": "",
+  "author": "shantnu",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "2.1049.0",
