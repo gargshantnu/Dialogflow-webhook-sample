@@ -151,7 +151,7 @@ const lineCoverage = `${"Lines".padEnd(10)} ${"?".padStart(10)} ${coverage.lines
 const statementCoverage = `${"Statement".padEnd(10)} ${"?".padStart(10)} ${coverage.statements.pct.padStart(10)} \n `;
 
 const msg = "\n ```diff \n @@            Coverage Diff            @@ " 
-  + "\n ##             master     #428   +/-   ## \n ========================================= \n " 
+  + `\n ##             master     #${danger.github.pr.number}   +/-   ## \n ========================================= \n ` 
   + functionCoverage + " \n "
   + lineCoverage + " \n "
   + statementCoverage + "========================================= \n "
@@ -159,17 +159,3 @@ const msg = "\n ```diff \n @@            Coverage Diff            @@ "
 
 
 markdown(`## Code Coverage ${msg}`);
-// const fs = require("fs");
-// fs.readdir('./', (err, files) => {
-//   files.forEach(file => {
-//     console.log(file);
-//   });
-// });
-
-// fs.readFile("./coverage/coverage-final.json", 'utf8', (err, data) => {
-//   if (err) {
-//       console.error(err)
-//       return
-//   }
-//   console.log("danger data: ", data);
-// })
