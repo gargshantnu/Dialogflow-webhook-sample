@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 0",
-    "tunnel": "/Users/shantnugarg/Desktop/ngrok http 8080",
+    "tunnel": "/Users/shantnugarg/Desktop/ngrok http 5000",
     "coverage": "nyc --reporter=json-summary npm run test",
     "merge": "nyc merge .nyc_output/ coverage/coverage-final.json",
     "show": "nyc report -t merged-output --report-dir merged-report --reporter=html --reporter=cobertura",
