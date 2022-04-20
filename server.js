@@ -5,7 +5,7 @@ const {
 const {
     Payload
 } = require('dialogflow-fulfillment');
-  
+
 const userService = require("./userService");
 
 const app = express();
@@ -117,8 +117,36 @@ app.post('/dialogflow', express.json(), (request, response) => {
         })
     }
 
+    function welcome(agent) {
+        console.log("this is my custom welcome msg", JSON.stringify(request.body.originalDetectIntentRequest));
+        // const displayName = request.body.originalDetectIntentRequest.payload.displayName;
+        // const userId = request.body.originalDetectIntentRequest.payload.userId;
+        // agent.add(`Welcome my friend displayName: ${displayName}, userId: ${userId} !`);
+        agent.add(new Payload("PLATFORM_UNSPECIFIED", [{
+            "message": "Do you want more updates?",
+            "platform": "kommunicate",
+            "metadata": {
+                "contentType": "300",
+                "templateId": "6",
+                "payload": [{
+                    "title": "Yes",
+                    "message": "Cool! send me more."
+                }, {
+                    "title": "No",
+                    "message": "Not at all",
+                    "replyMetadata": {
+                        "KM_CHAT_CONTEXT": {
+                            "buttonClicked": true
+                        }
+                    }
+                }]
+            }
+        }]));
+    }
+
     let intentMap = new Map();
 
+    intentMap.set('Default Welcome Intent', welcome);
     intentMap.set('Default Fallback Intent', fallback)
 
     intentMap.set('B1 - custom', customHandler);
