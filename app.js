@@ -18,7 +18,8 @@ app.intent('Default Welcome Intent', (conv) => {
     conv.ask('Welcome to number echo! Say a number.');
     conv.ask(new Suggestions(["Code chef", "Hacker rank"]));
 });
-app.intent('webhook', (conv) => {
+app.intent('tunnel', (conv) => {
+    console.log("webhook hit");
     conv.ask('i am from webhook');
     conv.ask(new Suggestions(["H1", "H2"]));
 });
