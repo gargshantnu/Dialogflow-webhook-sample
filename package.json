@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon app.js",
+    "dev": "nodemon kompose-webhook.js",
     "test": "echo \"Error: no test specified\" && exit 0",
     "tunnel": "/Users/shantnugarg/Desktop/ngrok http 5000",
     "coverage": "nyc --reporter=json-summary npm run test",

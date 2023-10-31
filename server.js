@@ -9,9 +9,10 @@ const {
 const userService = require("./userService");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
-app.get('/', (req, res) => res.send('online'))
+app.get('/', (req, res) => res.send('online'));
+app.post('/', (req, res) => res.send('online un read'));
 app.post('/dialogflow', express.json(), (request, response) => {
     request.body.queryResult.fulfillmentMessages = request.body.queryResult.fulfillmentMessages.map(m => {
         if (!m.platform)
@@ -157,7 +158,13 @@ app.post('/dialogflow', express.json(), (request, response) => {
     agent.handleRequest(intentMap);
 });
 
+app.post('/dialogflow', express.json(), (request, response) => {
+});
 
+app.post('/auth/*', express.json(), (request, response) => {
+    console.log(request.url, request.body, request.params);
+    return response.send("allow administrator");
+});
 
 app.listen(port, () => {
     console.log("Server started at port: ", port);
